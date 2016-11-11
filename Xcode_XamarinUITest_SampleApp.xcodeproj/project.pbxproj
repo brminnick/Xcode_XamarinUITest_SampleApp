@@ -111,7 +111,7 @@
 					AA33899B1DD55D00002E4AC2 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = PJ9L5WFREM;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -288,6 +288,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Minnick.Xcode-XamarinUITest-SampleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9c7d5145-e872-44df-badb-e860686ebf20";
+				PROVISIONING_PROFILE_SPECIFIER = "Xcode iOS Wildcard";
 			};
 			name = Debug;
 		};
@@ -301,6 +303,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Minnick.Xcode-XamarinUITest-SampleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9c7d5145-e872-44df-badb-e860686ebf20";
+				PROVISIONING_PROFILE_SPECIFIER = "Xcode iOS Wildcard";
 			};
 			name = Release;
 		};
