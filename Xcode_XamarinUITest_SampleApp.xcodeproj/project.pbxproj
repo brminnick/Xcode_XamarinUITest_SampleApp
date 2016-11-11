@@ -273,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = PJ9L5WFREM;
 				INFOPLIST_FILE = Xcode_XamarinUITest_SampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
