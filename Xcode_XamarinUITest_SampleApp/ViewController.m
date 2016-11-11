@@ -9,6 +9,9 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *MyTextField;
+@property (weak, nonatomic) IBOutlet UILabel *MyLabel;
+- (IBAction)MyTextFieldEditingChanged:(id)sender;
 
 @end
 
@@ -16,7 +19,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self setNeedsStatusBarAppearanceUpdate];
+    
+    _MyTextField.accessibilityIdentifier = @"MyTextField";
+    _MyLabel.accessibilityIdentifier = @"MyLabel";
 }
 
 
@@ -25,5 +31,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)MyTextFieldEditingChanged:(id)sender {
+    _MyLabel.text = _MyTextField.text;
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
 
 @end
