@@ -367,6 +367,7 @@
 					"\"$(SOURCE_ROOT)/calabash.framework/calabash\"",
 					"-framework",
 					CFNetwork,
+					"$(inherited)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Minnick.Xcode-XamarinUITest-SampleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
