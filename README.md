@@ -10,7 +10,7 @@ To run a UITest against an iOS app, you will need to embed the Calabash Library 
 
 To begin using this app, you will need to install its CocoaPods by following these steps:
 
-* Ensure that CocoaPods are installed on your build machine
+* Ensure that CocoaPods is installed on your build machine
   * Open Terminal
   * Install CocoaPods
     * In the terminal, enter `sudo gem install cocoapods`
