@@ -20,3 +20,5 @@ To begin using this app, you will need to install its CocoaPods by following the
   * In the Terminal, navigate to the project directory 
     * e.g. cd ~/Projects/Xcode_XamarinUITest_SampleApp
   * Then, enter `pod install`
+
+For additional information on CocoaPods, visit https://cocoapods.org.
